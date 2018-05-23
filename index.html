@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Watching ISS</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="left-column col-lg-9 col-xl-9 col-md-12 col-12">
+        <div class="location">
+          <h2>ISS is now located at:</h2>
+          <span class="lon"></span>
+          <span class="lat"></span>
+        </div>
+        <div class="map-box">
+          <div id="map">
+            
+          </div>
+        </div>
+      </div>
+      <div class="right-column col-lg-3 col-xl-3 col-md-12 col-12">
+        <div class="time-box">
+          <h2 class="time"></h2>
+          <span class="date"></span>
+        </div>
+        <div class="stuff">
+          <ul class="stuff-list">
+            
+          </ul>
+          <span class="stuff-capacity"></span>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+      <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSxoTxtWarYYEpNhJQT_770nM89CrhK7o&callback=initMap">
+      </script>
+    <script src='script.js'></script> 
+  </body>
+</html>
